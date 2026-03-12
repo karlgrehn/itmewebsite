@@ -1,0 +1,11 @@
+.buttonHover {
+    transition: transform 0.2s ease !important;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &:active {
+        transform: scale(1);
+    }
+}
